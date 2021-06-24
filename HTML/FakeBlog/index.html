@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Sports Blog">
+    <title>Lifting Basics</title>
+</head>
+<body>
+    <div class="header">
+        <h1 class="logo_name">Lifting Basics</h1>
+    </div>
+    <div class="intro">
+        <img src="http://lorempixel.com/400/200/sports/1/" alt="a sports image" width="100" length="100">
+        <h2>What is this?</h2>
+        <p>This is a fake blog about lifting! Here I will talk about some basics about lifting, 
+        post my current lifting maxes, and ask a short survey</p>
+    </div>
+    <div>
+        <h2>Here is my lifting history!</h2>
+        <table>
+            <thead>
+                <th>Lift</th>
+                <th>Week 1</th>
+                <th>Week 2</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Squats</td>
+                    <td>215 lbs</td>
+                    <td>225 lbs</td>
+                </tr>
+                <tr>
+                    <td>Deadlifts</td>
+                    <td>225 lbs</td>
+                    <td>235 lbs</td>
+                </tr>
+                <tr>
+                    <td>Bench</td>
+                    <td>145 lbs</td>
+                    <td>155 lbs</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <h2>Here are some excercises I should do more often!</h2>
+        <ul>
+            <li>Leg Extensions</li>
+            <li>Chest Flys</li>
+            <li>Good Mornings</li>
+        </ul>
+    </div>
+    <div>
+        <h3>That's it for now! Please take this survey UwU</h3>
+        <form action="/">
+            
+            <p>Did you like my page?</p>
+            <label for="Yes" value="yes">Yes</label>
+            <input type="radio" name="yes" id="yes">
+            <label for="No" value="no">No</label>
+            <input type="radio" name="no" id="no">
+
+            <p>Please tell me why you like lifting!</p>
+            <textarea name="desc" id="desc" cols="30" rows="10"></textarea>
+
+            <label for="lang">What is your favorite Major Lift? </label>
+            <select name="lang" id="lang">
+                <option value="eng">Bench</option>
+                <option value="fre">Deadlift</option>
+                <option value="spa">Squat</option>
+                <option value="none">I don't like to lift</option>
+            </select>
+
+            <input type="submit" value="Submit!">
+        </form>
+    </div>
+</body>
+</html>
